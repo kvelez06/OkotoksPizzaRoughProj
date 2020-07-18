@@ -1,0 +1,32 @@
+html {
+    background-image: linear-gradient(to bottom right, red, peachpuff);
+}
+
+div h1 {
+    color: white;
+}
+
+body > h1 {
+    color: orange;
+}
+
+h1 + p {
+    font-family: monospace;
+    font-size: large;
+}
+
+h1, p {
+   font-style: italic;
+}
+
+a {
+    font-size: 1.1rem;
+}
+
+a:hover {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: small;
+}
