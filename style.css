@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+}
+
+#header {
+    width: 100%;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    justify-items: baseline;
+    align-items: center;
+}
+
 html {
     position: relative;
     width: 1200px;
